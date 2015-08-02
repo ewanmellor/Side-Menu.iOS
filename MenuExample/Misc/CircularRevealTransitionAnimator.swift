@@ -7,7 +7,7 @@
 import UIKit
 
 class CircularRevealTransitionAnimator: NSObject {
-    private let duration = 0.5
+    private let duration = 0.4
     private let center: CGPoint
 
     init(center: CGPoint) {
