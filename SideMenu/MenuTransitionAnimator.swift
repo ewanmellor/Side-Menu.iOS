@@ -10,7 +10,7 @@ class MenuTransitionAnimator: NSObject {
     enum Mode { case Presentation, Dismissal }
 
     private let mode: Mode
-    private let duration = 0.5
+    private let duration = 0.3
     private let angle: CGFloat = 2
 
     init(_ mode: Mode) {
