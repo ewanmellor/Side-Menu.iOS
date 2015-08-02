@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4045C3A71B6E09A3000C8751 /* CircularRevealAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045C3A51B6E09A3000C8751 /* CircularRevealAnimator.swift */; };
+		4045C3A81B6E09A3000C8751 /* CircularRevealTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045C3A61B6E09A3000C8751 /* CircularRevealTransitionAnimator.swift */; };
+		4045C3AA1B6E09BE000C8751 /* AnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045C3A91B6E09BE000C8751 /* AnimationDelegate.swift */; };
 		50B42F061A6A879C00B05352 /* SideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B42F051A6A879C00B05352 /* SideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D527A1BB75178BD3056AF143 /* MenuItemsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527A71BDF077866724721AB /* MenuItemsAnimator.swift */; };
 		D527A273803C14491AA342C3 /* MenuTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D527A2A61BB94885601BE108 /* MenuTransitionAnimator.swift */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4045C3A51B6E09A3000C8751 /* CircularRevealAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircularRevealAnimator.swift; path = MenuExample/Misc/CircularRevealAnimator.swift; sourceTree = SOURCE_ROOT; };
+		4045C3A61B6E09A3000C8751 /* CircularRevealTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircularRevealTransitionAnimator.swift; path = MenuExample/Misc/CircularRevealTransitionAnimator.swift; sourceTree = SOURCE_ROOT; };
+		4045C3A91B6E09BE000C8751 /* AnimationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimationDelegate.swift; path = MenuExample/Misc/AnimationDelegate.swift; sourceTree = SOURCE_ROOT; };
 		50B42F001A6A879C00B05352 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B42F041A6A879C00B05352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B42F051A6A879C00B05352 /* SideMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SideMenu.h; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 		50B42F021A6A879C00B05352 /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				4045C3A91B6E09BE000C8751 /* AnimationDelegate.swift */,
+				4045C3A51B6E09A3000C8751 /* CircularRevealAnimator.swift */,
+				4045C3A61B6E09A3000C8751 /* CircularRevealTransitionAnimator.swift */,
 				50B42F051A6A879C00B05352 /* SideMenu.h */,
 				D527A8F5BB896136B96C89C2 /* Menu.swift */,
 				D527AA77AFD20314004ABBFE /* MenuSegue.swift */,
@@ -150,7 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4045C3AA1B6E09BE000C8751 /* AnimationDelegate.swift in Sources */,
 				D527A5EFA97FF89A1143298F /* MenuSegue.swift in Sources */,
+				4045C3A81B6E09A3000C8751 /* CircularRevealTransitionAnimator.swift in Sources */,
+				4045C3A71B6E09A3000C8751 /* CircularRevealAnimator.swift in Sources */,
 				D527A273803C14491AA342C3 /* MenuTransitionAnimator.swift in Sources */,
 				D527A1BB75178BD3056AF143 /* MenuItemsAnimator.swift in Sources */,
 				D527A82567B79C5B10E766A6 /* Menu.swift in Sources */,
